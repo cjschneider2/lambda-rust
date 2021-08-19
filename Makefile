@@ -1,6 +1,6 @@
 VERSION ?= 0.4.1
 RUST_VERSION ?= 1.54.0
-REPO ?= cjschneider2/lambda-rust
+REPO ?= demvsystems/lambda-rust
 TAG ?= "$(REPO):$(VERSION)-rust-$(RUST_VERSION)"
 
 publish: build
