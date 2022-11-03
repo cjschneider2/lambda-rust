@@ -1,5 +1,5 @@
-VERSION ?= 0.4.2
-RUST_VERSION ?= 1.64.0
+VERSION ?= 0.4.3
+RUST_VERSION ?= 1.65.0
 REPO ?= demvsystems/lambda-rust
 TAG ?= "$(REPO):$(VERSION)-rust-$(RUST_VERSION)"
 
